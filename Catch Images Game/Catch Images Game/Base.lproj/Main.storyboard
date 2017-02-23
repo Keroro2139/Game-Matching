@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Catch_Images_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWM-l2-HZK">
+                                <rect key="frame" x="42" y="164" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eXX-uf-Wrp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaC-4C-y3D">
+                                <rect key="frame" x="42" y="394" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7nt-YG-ai3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6c-rd-lPV">
+                                <rect key="frame" x="42" y="623" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xVW-7y-DSR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xuz-nA-5lL">
+                                <rect key="frame" x="42" y="853" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4q7-ul-7DX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xU1-jI-cKu">
+                                <rect key="frame" x="292" y="164" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GAa-d5-c5c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xe8-hm-Z1Y">
+                                <rect key="frame" x="539" y="164" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zfz-Ij-gqL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdB-rZ-eJs">
+                                <rect key="frame" x="792" y="164" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="odL-HK-rRG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mN-WE-Fp0">
+                                <rect key="frame" x="42" y="1083" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hbD-6i-woJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HbG-eE-jbW">
+                                <rect key="frame" x="292" y="394" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rEp-3W-tN7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcW-E1-Lmu">
+                                <rect key="frame" x="292" y="623" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EWY-mG-1Bb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sap-qI-wWf">
+                                <rect key="frame" x="292" y="853" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wBS-3i-yJ4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLj-sP-AMP">
+                                <rect key="frame" x="292" y="1083" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qvH-2Z-ktj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2d-u1-wXY">
+                                <rect key="frame" x="539" y="394" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ryy-J0-PbM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SaC-O9-65P">
+                                <rect key="frame" x="539" y="623" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D8m-Fn-Sar"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L7V-rM-hQJ">
+                                <rect key="frame" x="539" y="853" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wyQ-Ju-dDz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNV-vb-v77">
+                                <rect key="frame" x="539" y="1083" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gdp-Oy-NZu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUr-Tp-ucb">
+                                <rect key="frame" x="792" y="394" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dPm-y9-kJG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jxb-5D-a73">
+                                <rect key="frame" x="792" y="623" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q9Q-7K-N3r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZG-QF-hEs">
+                                <rect key="frame" x="792" y="853" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OI0-ei-VGN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uT-N4-ltL">
+                                <rect key="frame" x="792" y="1083" width="190" height="190"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jF4-q9-eDk"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jQx-ZV-Emm">
+                                <rect key="frame" x="42" y="96" width="940" height="30"/>
+                                <subviews>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eAG-6K-wVg">
+                                        <rect key="frame" x="0.0" y="0.0" width="940" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="gCI-Eg-YvP"/>
+                                        </constraints>
+                                    </progressView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJT-0K-PhD">
+                                <rect key="frame" x="133" y="58" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0C-Zh-szF">
+                                <rect key="frame" x="42" y="53" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ptj-uI-OH9">
+                                <rect key="frame" x="42" y="164" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ZPJ-9j-ZFG">
+                                <rect key="frame" x="292" y="164" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="okQ-iu-hGb">
+                                <rect key="frame" x="539" y="164" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="q9K-Y3-qHp">
+                                <rect key="frame" x="792" y="164" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VQ9-IG-uvl">
+                                <rect key="frame" x="42" y="394" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Cld-a5-xei">
+                                <rect key="frame" x="292" y="394" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P8e-E8-HGv">
+                                <rect key="frame" x="539" y="394" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UQx-AW-3PI">
+                                <rect key="frame" x="792" y="394" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OtF-Fx-ueD">
+                                <rect key="frame" x="42" y="623" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UQG-in-dhH">
+                                <rect key="frame" x="292" y="623" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ljK-BS-RtQ">
+                                <rect key="frame" x="539" y="623" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Hgy-th-hLj">
+                                <rect key="frame" x="792" y="623" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oAZ-00-YZa">
+                                <rect key="frame" x="42" y="853" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RZS-3v-zO4">
+                                <rect key="frame" x="292" y="853" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bXy-t1-iFB">
+                                <rect key="frame" x="539" y="853" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cni-Ce-wCp">
+                                <rect key="frame" x="792" y="853" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yGf-aW-idT">
+                                <rect key="frame" x="42" y="1083" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="txD-FE-8uB">
+                                <rect key="frame" x="292" y="1083" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ydv-KS-xLm">
+                                <rect key="frame" x="792" y="1083" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DOG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SpY-Cf-VXD">
+                                <rect key="frame" x="539" y="1083" width="190" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U6c-rd-lPV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="42" id="0SO-Xm-21B"/>
+                            <constraint firstItem="jdB-rZ-eJs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="144" id="14P-aj-QH2"/>
+                            <constraint firstItem="3uT-N4-ltL" firstAttribute="width" secondItem="5mN-WE-Fp0" secondAttribute="width" id="1hK-Tn-2xt"/>
+                            <constraint firstItem="SaC-O9-65P" firstAttribute="centerY" secondItem="U6c-rd-lPV" secondAttribute="centerY" id="4Gf-ik-KpD"/>
+                            <constraint firstItem="U6c-rd-lPV" firstAttribute="height" secondItem="LWM-l2-HZK" secondAttribute="height" id="4eI-yZ-NcQ"/>
+                            <constraint firstItem="SaC-O9-65P" firstAttribute="height" secondItem="U6c-rd-lPV" secondAttribute="height" id="5DH-TW-Zic"/>
+                            <constraint firstItem="L7V-rM-hQJ" firstAttribute="centerY" secondItem="Xuz-nA-5lL" secondAttribute="centerY" id="5WJ-QT-VuM"/>
+                            <constraint firstItem="Sap-qI-wWf" firstAttribute="centerY" secondItem="Xuz-nA-5lL" secondAttribute="centerY" id="6Yn-L2-i3q"/>
+                            <constraint firstItem="NUr-Tp-ucb" firstAttribute="height" secondItem="eaC-4C-y3D" secondAttribute="height" id="6tf-cY-ho8"/>
+                            <constraint firstItem="jdB-rZ-eJs" firstAttribute="height" secondItem="LWM-l2-HZK" secondAttribute="height" id="7Ko-d3-9d3"/>
+                            <constraint firstItem="Xuz-nA-5lL" firstAttribute="centerX" secondItem="LWM-l2-HZK" secondAttribute="centerX" id="8Vu-XF-oCZ"/>
+                            <constraint firstItem="jQx-ZV-Emm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="76" id="97n-S5-qwh"/>
+                            <constraint firstItem="LWM-l2-HZK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="42" id="98p-6n-Fe7"/>
+                            <constraint firstItem="xU1-jI-cKu" firstAttribute="width" secondItem="LWM-l2-HZK" secondAttribute="width" id="9Y1-2L-JeT"/>
+                            <constraint firstItem="Xuz-nA-5lL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="42" id="9vv-Zy-8w9"/>
+                            <constraint firstItem="NUr-Tp-ucb" firstAttribute="centerY" secondItem="eaC-4C-y3D" secondAttribute="centerY" id="9wq-Dg-xSb"/>
+                            <constraint firstItem="Xe8-hm-Z1Y" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="144" id="BWD-O5-dfi"/>
+                            <constraint firstItem="WZG-QF-hEs" firstAttribute="height" secondItem="Xuz-nA-5lL" secondAttribute="height" id="CUe-Ib-xPZ"/>
+                            <constraint firstItem="5mN-WE-Fp0" firstAttribute="height" secondItem="LWM-l2-HZK" secondAttribute="height" id="Cbh-VK-XYL"/>
+                            <constraint firstItem="3uT-N4-ltL" firstAttribute="centerX" secondItem="jdB-rZ-eJs" secondAttribute="centerX" id="CgN-Br-ost"/>
+                            <constraint firstItem="3uT-N4-ltL" firstAttribute="centerY" secondItem="5mN-WE-Fp0" secondAttribute="centerY" id="DOA-7X-7J8"/>
+                            <constraint firstItem="5mN-WE-Fp0" firstAttribute="centerX" secondItem="LWM-l2-HZK" secondAttribute="centerX" id="E8X-1l-jUU"/>
+                            <constraint firstItem="HbG-eE-jbW" firstAttribute="centerX" secondItem="xU1-jI-cKu" secondAttribute="centerX" id="Ebd-5Y-BXr"/>
+                            <constraint firstItem="Sap-qI-wWf" firstAttribute="leading" secondItem="Xuz-nA-5lL" secondAttribute="trailing" constant="60" id="F5L-pV-7kr"/>
+                            <constraint firstItem="eaC-4C-y3D" firstAttribute="height" secondItem="LWM-l2-HZK" secondAttribute="height" id="F8L-Bg-oWN"/>
+                            <constraint firstItem="HbG-eE-jbW" firstAttribute="centerY" secondItem="eaC-4C-y3D" secondAttribute="centerY" id="FVW-Ik-5LY"/>
+                            <constraint firstItem="U6c-rd-lPV" firstAttribute="centerX" secondItem="LWM-l2-HZK" secondAttribute="centerX" id="Fdm-E4-Jhh"/>
+                            <constraint firstItem="NUr-Tp-ucb" firstAttribute="centerX" secondItem="jdB-rZ-eJs" secondAttribute="centerX" id="GKd-MC-jo6"/>
+                            <constraint firstItem="Sap-qI-wWf" firstAttribute="centerX" secondItem="xU1-jI-cKu" secondAttribute="centerX" id="GSY-RM-Dti"/>
+                            <constraint firstItem="rcW-E1-Lmu" firstAttribute="centerX" secondItem="xU1-jI-cKu" secondAttribute="centerX" id="Gi5-9V-bSB"/>
+                            <constraint firstAttribute="trailing" secondItem="jdB-rZ-eJs" secondAttribute="trailing" constant="42" id="Gje-cV-vi9"/>
+                            <constraint firstItem="HbG-eE-jbW" firstAttribute="width" secondItem="eaC-4C-y3D" secondAttribute="width" id="I4v-10-gef"/>
+                            <constraint firstItem="nLj-sP-AMP" firstAttribute="leading" secondItem="5mN-WE-Fp0" secondAttribute="trailing" constant="60" id="IJ1-u4-vpG"/>
+                            <constraint firstItem="HbG-eE-jbW" firstAttribute="top" secondItem="xU1-jI-cKu" secondAttribute="bottom" constant="40" id="KCS-ye-KRe"/>
+                            <constraint firstItem="u2d-u1-wXY" firstAttribute="height" secondItem="eaC-4C-y3D" secondAttribute="height" id="Kur-xJ-HB7"/>
+                            <constraint firstItem="SaC-O9-65P" firstAttribute="centerX" secondItem="Xe8-hm-Z1Y" secondAttribute="centerX" id="NGF-Wp-kne"/>
+                            <constraint firstItem="xU1-jI-cKu" firstAttribute="height" secondItem="LWM-l2-HZK" secondAttribute="height" id="NNi-pi-XTD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5mN-WE-Fp0" secondAttribute="bottom" constant="93" id="OiI-aP-45n"/>
+                            <constraint firstItem="NNV-vb-v77" firstAttribute="width" secondItem="5mN-WE-Fp0" secondAttribute="width" id="P8g-5H-2wk"/>
+                            <constraint firstItem="u2d-u1-wXY" firstAttribute="top" secondItem="Xe8-hm-Z1Y" secondAttribute="bottom" constant="40" id="PIS-83-yba"/>
+                            <constraint firstItem="u2d-u1-wXY" firstAttribute="width" secondItem="eaC-4C-y3D" secondAttribute="width" id="Qv3-fU-F9m"/>
+                            <constraint firstItem="Sap-qI-wWf" firstAttribute="width" secondItem="Xuz-nA-5lL" secondAttribute="width" id="Qxn-fT-ls5"/>
+                            <constraint firstItem="WZG-QF-hEs" firstAttribute="width" secondItem="Xuz-nA-5lL" secondAttribute="width" id="R33-yz-unb"/>
+                            <constraint firstItem="3uT-N4-ltL" firstAttribute="height" secondItem="5mN-WE-Fp0" secondAttribute="height" id="RR7-S6-rZE"/>
+                            <constraint firstItem="WZG-QF-hEs" firstAttribute="centerX" secondItem="jdB-rZ-eJs" secondAttribute="centerX" id="SVe-Dw-s3i"/>
+                            <constraint firstItem="Xe8-hm-Z1Y" firstAttribute="height" secondItem="LWM-l2-HZK" secondAttribute="height" id="SbQ-Ac-qvS"/>
+                            <constraint firstItem="5mN-WE-Fp0" firstAttribute="top" secondItem="Xuz-nA-5lL" secondAttribute="bottom" constant="40" id="Syw-CM-5Pe"/>
+                            <constraint firstItem="Xuz-nA-5lL" firstAttribute="top" secondItem="U6c-rd-lPV" secondAttribute="bottom" constant="40" id="UbU-mB-U9U"/>
+                            <constraint firstItem="rcW-E1-Lmu" firstAttribute="height" secondItem="U6c-rd-lPV" secondAttribute="height" id="V0I-DG-rrm"/>
+                            <constraint firstItem="nLj-sP-AMP" firstAttribute="centerY" secondItem="5mN-WE-Fp0" secondAttribute="centerY" id="W68-0U-oJa"/>
+                            <constraint firstItem="Jxb-5D-a73" firstAttribute="centerY" secondItem="U6c-rd-lPV" secondAttribute="centerY" id="Wei-sI-2Te"/>
+                            <constraint firstItem="WZG-QF-hEs" firstAttribute="centerY" secondItem="Xuz-nA-5lL" secondAttribute="centerY" id="WvL-XL-1df"/>
+                            <constraint firstItem="Xuz-nA-5lL" firstAttribute="height" secondItem="LWM-l2-HZK" secondAttribute="height" id="Xc9-Hf-Mfh"/>
+                            <constraint firstItem="nLj-sP-AMP" firstAttribute="centerX" secondItem="xU1-jI-cKu" secondAttribute="centerX" id="Xtj-mP-YdV"/>
+                            <constraint firstItem="xU1-jI-cKu" firstAttribute="leading" secondItem="LWM-l2-HZK" secondAttribute="trailing" constant="60" id="YJW-pj-LbC"/>
+                            <constraint firstItem="rcW-E1-Lmu" firstAttribute="centerY" secondItem="U6c-rd-lPV" secondAttribute="centerY" id="ZF0-De-uca"/>
+                            <constraint firstItem="5mN-WE-Fp0" firstAttribute="width" secondItem="LWM-l2-HZK" secondAttribute="width" id="ZLg-If-prf"/>
+                            <constraint firstItem="Jxb-5D-a73" firstAttribute="width" secondItem="U6c-rd-lPV" secondAttribute="width" id="aOb-tC-Xyw"/>
+                            <constraint firstItem="L7V-rM-hQJ" firstAttribute="height" secondItem="Xuz-nA-5lL" secondAttribute="height" id="bG9-UR-xSr"/>
+                            <constraint firstItem="jdB-rZ-eJs" firstAttribute="leading" secondItem="Xe8-hm-Z1Y" secondAttribute="trailing" constant="63" id="bTc-5T-98h"/>
+                            <constraint firstItem="jQx-ZV-Emm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="42" id="bsu-2M-U7v"/>
+                            <constraint firstItem="HbG-eE-jbW" firstAttribute="height" secondItem="eaC-4C-y3D" secondAttribute="height" id="c2q-S1-WoZ"/>
+                            <constraint firstItem="eaC-4C-y3D" firstAttribute="width" secondItem="LWM-l2-HZK" secondAttribute="width" id="cwb-kD-Ln1"/>
+                            <constraint firstItem="Jxb-5D-a73" firstAttribute="height" secondItem="U6c-rd-lPV" secondAttribute="height" id="d19-J5-ZCD"/>
+                            <constraint firstItem="Xe8-hm-Z1Y" firstAttribute="centerY" secondItem="LWM-l2-HZK" secondAttribute="centerY" id="d5L-j6-MCD"/>
+                            <constraint firstAttribute="trailing" secondItem="jQx-ZV-Emm" secondAttribute="trailing" constant="42" id="dUo-BB-4WV"/>
+                            <constraint firstItem="HbG-eE-jbW" firstAttribute="leading" secondItem="eaC-4C-y3D" secondAttribute="trailing" constant="60" id="eEB-OA-6k2"/>
+                            <constraint firstItem="Xe8-hm-Z1Y" firstAttribute="width" secondItem="LWM-l2-HZK" secondAttribute="width" id="egR-Li-z5q"/>
+                            <constraint firstItem="jdB-rZ-eJs" firstAttribute="width" secondItem="LWM-l2-HZK" secondAttribute="width" id="f4y-pC-Oya"/>
+                            <constraint firstItem="NNV-vb-v77" firstAttribute="centerY" secondItem="5mN-WE-Fp0" secondAttribute="centerY" id="fIm-dW-azl"/>
+                            <constraint firstItem="eaC-4C-y3D" firstAttribute="top" secondItem="LWM-l2-HZK" secondAttribute="bottom" constant="40" id="fJw-ZC-of0"/>
+                            <constraint firstItem="xU1-jI-cKu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="144" id="fMG-X5-rZu"/>
+                            <constraint firstItem="u2d-u1-wXY" firstAttribute="centerY" secondItem="eaC-4C-y3D" secondAttribute="centerY" id="gLa-q5-Lyb"/>
+                            <constraint firstItem="eaC-4C-y3D" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="42" id="gkx-el-J1Y"/>
+                            <constraint firstItem="jdB-rZ-eJs" firstAttribute="top" secondItem="jQx-ZV-Emm" secondAttribute="bottom" constant="38" id="gru-US-jZw"/>
+                            <constraint firstItem="5mN-WE-Fp0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="42" id="h2T-4X-sPg"/>
+                            <constraint firstItem="U6c-rd-lPV" firstAttribute="width" secondItem="LWM-l2-HZK" secondAttribute="width" id="hI6-dw-cqV"/>
+                            <constraint firstItem="jdB-rZ-eJs" firstAttribute="centerY" secondItem="LWM-l2-HZK" secondAttribute="centerY" id="hOY-Cu-Psg"/>
+                            <constraint firstItem="LWM-l2-HZK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="144" id="ja1-j1-ev6"/>
+                            <constraint firstItem="Xe8-hm-Z1Y" firstAttribute="leading" secondItem="xU1-jI-cKu" secondAttribute="trailing" constant="57" id="k0A-QS-Lg0"/>
+                            <constraint firstItem="NNV-vb-v77" firstAttribute="centerX" secondItem="Xe8-hm-Z1Y" secondAttribute="centerX" id="kcb-dz-MOe"/>
+                            <constraint firstItem="L7V-rM-hQJ" firstAttribute="centerX" secondItem="Xe8-hm-Z1Y" secondAttribute="centerX" id="kue-gi-4Wi"/>
+                            <constraint firstItem="xU1-jI-cKu" firstAttribute="centerY" secondItem="LWM-l2-HZK" secondAttribute="centerY" id="lsQ-em-txu"/>
+                            <constraint firstItem="U6c-rd-lPV" firstAttribute="top" secondItem="eaC-4C-y3D" secondAttribute="bottom" constant="39" id="mga-QD-uhT"/>
+                            <constraint firstItem="Jxb-5D-a73" firstAttribute="centerX" secondItem="jdB-rZ-eJs" secondAttribute="centerX" id="nUM-00-c7o"/>
+                            <constraint firstItem="rcW-E1-Lmu" firstAttribute="width" secondItem="U6c-rd-lPV" secondAttribute="width" id="o7S-RG-miX"/>
+                            <constraint firstItem="Sap-qI-wWf" firstAttribute="height" secondItem="Xuz-nA-5lL" secondAttribute="height" id="oFH-gq-plW"/>
+                            <constraint firstItem="nLj-sP-AMP" firstAttribute="height" secondItem="5mN-WE-Fp0" secondAttribute="height" id="p5E-fT-aZS"/>
+                            <constraint firstItem="eaC-4C-y3D" firstAttribute="centerX" secondItem="LWM-l2-HZK" secondAttribute="centerX" id="pGV-rs-wc0"/>
+                            <constraint firstItem="SaC-O9-65P" firstAttribute="width" secondItem="U6c-rd-lPV" secondAttribute="width" id="pg9-AG-kcm"/>
+                            <constraint firstItem="NUr-Tp-ucb" firstAttribute="top" secondItem="jdB-rZ-eJs" secondAttribute="bottom" constant="40" id="tPS-G7-1pp"/>
+                            <constraint firstItem="NNV-vb-v77" firstAttribute="height" secondItem="5mN-WE-Fp0" secondAttribute="height" id="tpt-aj-mVQ"/>
+                            <constraint firstItem="nLj-sP-AMP" firstAttribute="width" secondItem="5mN-WE-Fp0" secondAttribute="width" id="vH1-Il-aqe"/>
+                            <constraint firstItem="Xuz-nA-5lL" firstAttribute="width" secondItem="LWM-l2-HZK" secondAttribute="width" id="vsN-Ub-v6F"/>
+                            <constraint firstItem="rcW-E1-Lmu" firstAttribute="leading" secondItem="U6c-rd-lPV" secondAttribute="trailing" constant="60" id="wvr-4z-tM4"/>
+                            <constraint firstItem="xU1-jI-cKu" firstAttribute="leading" secondItem="LWM-l2-HZK" secondAttribute="trailing" constant="60" id="xre-iQ-wmO"/>
+                            <constraint firstItem="NUr-Tp-ucb" firstAttribute="width" secondItem="eaC-4C-y3D" secondAttribute="width" id="yRo-av-wz0"/>
+                            <constraint firstItem="u2d-u1-wXY" firstAttribute="centerX" secondItem="Xe8-hm-Z1Y" secondAttribute="centerX" id="zMs-Fp-fvh"/>
+                            <constraint firstItem="L7V-rM-hQJ" firstAttribute="width" secondItem="Xuz-nA-5lL" secondAttribute="width" id="ztw-H2-sU1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="LWM-l2-HZK" id="wXo-MA-JQA"/>
+                        <outlet property="button10" destination="rcW-E1-Lmu" id="bnH-VM-jYB"/>
+                        <outlet property="button11" destination="SaC-O9-65P" id="rdo-wd-o7j"/>
+                        <outlet property="button12" destination="Jxb-5D-a73" id="lXN-PV-u4q"/>
+                        <outlet property="button13" destination="Xuz-nA-5lL" id="BSg-CR-UaY"/>
+                        <outlet property="button14" destination="Sap-qI-wWf" id="rXB-YY-z8P"/>
+                        <outlet property="button15" destination="L7V-rM-hQJ" id="X0v-aa-xie"/>
+                        <outlet property="button16" destination="WZG-QF-hEs" id="DRc-zV-e8G"/>
+                        <outlet property="button17" destination="5mN-WE-Fp0" id="ues-vF-Glp"/>
+                        <outlet property="button18" destination="nLj-sP-AMP" id="yS9-7d-X7P"/>
+                        <outlet property="button19" destination="NNV-vb-v77" id="jio-7o-gI2"/>
+                        <outlet property="button2" destination="xU1-jI-cKu" id="1yO-K4-jC2"/>
+                        <outlet property="button20" destination="3uT-N4-ltL" id="gPy-KX-due"/>
+                        <outlet property="button3" destination="Xe8-hm-Z1Y" id="32U-rD-yZn"/>
+                        <outlet property="button4" destination="jdB-rZ-eJs" id="3tk-8C-6R5"/>
+                        <outlet property="button5" destination="eaC-4C-y3D" id="w5O-nm-lMm"/>
+                        <outlet property="button6" destination="HbG-eE-jbW" id="dnZ-Zk-SWR"/>
+                        <outlet property="button7" destination="u2d-u1-wXY" id="THL-Z1-pwT"/>
+                        <outlet property="button8" destination="NUr-Tp-ucb" id="gY8-a7-6NM"/>
+                        <outlet property="button9" destination="U6c-rd-lPV" id="mfg-Yr-7cV"/>
+                        <outlet property="m1" destination="ptj-uI-OH9" id="Ay8-nA-gCQ"/>
+                        <outlet property="m10" destination="UQG-in-dhH" id="9Fl-l4-fUy"/>
+                        <outlet property="m11" destination="ljK-BS-RtQ" id="w3E-JX-wdl"/>
+                        <outlet property="m12" destination="Hgy-th-hLj" id="OSL-bq-4O4"/>
+                        <outlet property="m13" destination="oAZ-00-YZa" id="Koc-g5-tU1"/>
+                        <outlet property="m14" destination="RZS-3v-zO4" id="yRB-TU-YIP"/>
+                        <outlet property="m15" destination="bXy-t1-iFB" id="LAy-9m-b5x"/>
+                        <outlet property="m16" destination="cni-Ce-wCp" id="dM1-Q7-uPj"/>
+                        <outlet property="m17" destination="yGf-aW-idT" id="K7h-pa-3g6"/>
+                        <outlet property="m18" destination="txD-FE-8uB" id="5LB-bx-EWm"/>
+                        <outlet property="m19" destination="SpY-Cf-VXD" id="ZT5-8A-HHj"/>
+                        <outlet property="m2" destination="ZPJ-9j-ZFG" id="Y9e-bg-Z37"/>
+                        <outlet property="m20" destination="Ydv-KS-xLm" id="IoW-sj-fsK"/>
+                        <outlet property="m3" destination="okQ-iu-hGb" id="hAX-8L-wOz"/>
+                        <outlet property="m4" destination="q9K-Y3-qHp" id="ZR1-HG-n5W"/>
+                        <outlet property="m5" destination="VQ9-IG-uvl" id="wN7-Ix-b3x"/>
+                        <outlet property="m6" destination="Cld-a5-xei" id="wSx-eT-XJd"/>
+                        <outlet property="m7" destination="P8e-E8-HGv" id="QrZ-Gt-58D"/>
+                        <outlet property="m8" destination="UQx-AW-3PI" id="N0R-7G-4id"/>
+                        <outlet property="m9" destination="OtF-Fx-ueD" id="DtP-kk-n9A"/>
+                        <outlet property="progressBar" destination="eAG-6K-wVg" id="RCS-HN-fbf"/>
+                        <outlet property="timeLabel" destination="aJT-0K-PhD" id="1sD-Ru-oYZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="25.78125" y="42.606149341142014"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DOG.jpg" width="900" height="900"/>
+    </resources>
+</document>

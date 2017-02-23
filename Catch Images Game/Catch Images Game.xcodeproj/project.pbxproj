@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FB5FB5D1E56D67C007BB9FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5FB5C1E56D67C007BB9FF /* AppDelegate.swift */; };
+		3FB5FB5F1E56D67C007BB9FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5FB5E1E56D67C007BB9FF /* ViewController.swift */; };
+		3FB5FB621E56D67C007BB9FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB601E56D67C007BB9FF /* Main.storyboard */; };
+		3FB5FB641E56D67C007BB9FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB631E56D67C007BB9FF /* Assets.xcassets */; };
+		3FB5FB671E56D67C007BB9FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB651E56D67C007BB9FF /* LaunchScreen.storyboard */; };
+		3FB5FB791E56DA85007BB9FF /* Dog1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB701E56DA85007BB9FF /* Dog1.png */; };
+		3FB5FB7A1E56DA85007BB9FF /* Dog2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB711E56DA85007BB9FF /* Dog2.png */; };
+		3FB5FB7B1E56DA85007BB9FF /* Dog3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB721E56DA85007BB9FF /* Dog3.png */; };
+		3FB5FB7C1E56DA85007BB9FF /* Dog4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB731E56DA85007BB9FF /* Dog4.png */; };
+		3FB5FB7D1E56DA85007BB9FF /* Dog5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB741E56DA85007BB9FF /* Dog5.png */; };
+		3FB5FB7E1E56DA85007BB9FF /* Dog6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB751E56DA85007BB9FF /* Dog6.png */; };
+		3FB5FB7F1E56DA85007BB9FF /* Dog8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB761E56DA85007BB9FF /* Dog8.png */; };
+		3FB5FB801E56DA85007BB9FF /* Dog9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB771E56DA85007BB9FF /* Dog9.png */; };
+		3FB5FB811E56DA85007BB9FF /* Dog10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB781E56DA85007BB9FF /* Dog10.png */; };
+		3FB5FB831E56DC1B007BB9FF /* Dog7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB821E56DC1B007BB9FF /* Dog7.png */; };
+		3FB5FB871E570F0E007BB9FF /* DOG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB861E570F0E007BB9FF /* DOG.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FB5FB591E56D67C007BB9FF /* Catch Images Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catch Images Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB5FB5C1E56D67C007BB9FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FB5FB5E1E56D67C007BB9FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FB5FB611E56D67C007BB9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FB5FB631E56D67C007BB9FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FB5FB661E56D67C007BB9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FB5FB681E56D67C007BB9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB5FB701E56DA85007BB9FF /* Dog1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dog1.png; path = ../Dog1.png; sourceTree = "<group>"; };
+		3FB5FB711E56DA85007BB9FF /* Dog2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dog2.png; path = ../Dog2.png; sourceTree = "<group>"; };
+		3FB5FB721E56DA85007BB9FF /* Dog3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dog3.png; path = ../Dog3.png; sourceTree = "<group>"; };
+		3FB5FB731E56DA85007BB9FF /* Dog4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dog4.png; path = ../Dog4.png; sourceTree = "<group>"; };
+		3FB5FB741E56DA85007BB9FF /* Dog5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dog5.png; path = ../Dog5.png; sourceTree = "<group>"; };
+		3FB5FB751E56DA85007BB9FF /* Dog6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dog6.png; path = ../Dog6.png; sourceTree = "<group>"; };
+		3FB5FB761E56DA85007BB9FF /* Dog8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dog8.png; path = ../Dog8.png; sourceTree = "<group>"; };
+		3FB5FB771E56DA85007BB9FF /* Dog9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dog9.png; path = ../Dog9.png; sourceTree = "<group>"; };
+		3FB5FB781E56DA85007BB9FF /* Dog10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dog10.png; path = ../Dog10.png; sourceTree = "<group>"; };
+		3FB5FB821E56DC1B007BB9FF /* Dog7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dog7.png; path = ../Dog7.png; sourceTree = "<group>"; };
+		3FB5FB861E570F0E007BB9FF /* DOG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DOG.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB5FB561E56D67C007BB9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB5FB501E56D67C007BB9FF = {
+			isa = PBXGroup;
+			children = (
+				3FB5FB5B1E56D67C007BB9FF /* Catch Images Game */,
+				3FB5FB5A1E56D67C007BB9FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB5FB5A1E56D67C007BB9FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB5FB591E56D67C007BB9FF /* Catch Images Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB5FB5B1E56D67C007BB9FF /* Catch Images Game */ = {
+			isa = PBXGroup;
+			children = (
+				3FB5FB5C1E56D67C007BB9FF /* AppDelegate.swift */,
+				3FB5FB5E1E56D67C007BB9FF /* ViewController.swift */,
+				3FB5FB601E56D67C007BB9FF /* Main.storyboard */,
+				3FB5FB631E56D67C007BB9FF /* Assets.xcassets */,
+				3FB5FB651E56D67C007BB9FF /* LaunchScreen.storyboard */,
+				3FB5FB681E56D67C007BB9FF /* Info.plist */,
+				3FB5FB701E56DA85007BB9FF /* Dog1.png */,
+				3FB5FB711E56DA85007BB9FF /* Dog2.png */,
+				3FB5FB721E56DA85007BB9FF /* Dog3.png */,
+				3FB5FB731E56DA85007BB9FF /* Dog4.png */,
+				3FB5FB741E56DA85007BB9FF /* Dog5.png */,
+				3FB5FB751E56DA85007BB9FF /* Dog6.png */,
+				3FB5FB821E56DC1B007BB9FF /* Dog7.png */,
+				3FB5FB761E56DA85007BB9FF /* Dog8.png */,
+				3FB5FB771E56DA85007BB9FF /* Dog9.png */,
+				3FB5FB781E56DA85007BB9FF /* Dog10.png */,
+				3FB5FB861E570F0E007BB9FF /* DOG.jpg */,
+			);
+			path = "Catch Images Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB5FB581E56D67C007BB9FF /* Catch Images Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB5FB6B1E56D67C007BB9FF /* Build configuration list for PBXNativeTarget "Catch Images Game" */;
+			buildPhases = (
+				3FB5FB551E56D67C007BB9FF /* Sources */,
+				3FB5FB561E56D67C007BB9FF /* Frameworks */,
+				3FB5FB571E56D67C007BB9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Catch Images Game";
+			productName = "Catch Images Game";
+			productReference = 3FB5FB591E56D67C007BB9FF /* Catch Images Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB5FB511E56D67C007BB9FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Burapha University";
+				TargetAttributes = {
+					3FB5FB581E56D67C007BB9FF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3FB5FB541E56D67C007BB9FF /* Build configuration list for PBXProject "Catch Images Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB5FB501E56D67C007BB9FF;
+			productRefGroup = 3FB5FB5A1E56D67C007BB9FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB5FB581E56D67C007BB9FF /* Catch Images Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB5FB571E56D67C007BB9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB5FB7E1E56DA85007BB9FF /* Dog6.png in Resources */,
+				3FB5FB831E56DC1B007BB9FF /* Dog7.png in Resources */,
+				3FB5FB7C1E56DA85007BB9FF /* Dog4.png in Resources */,
+				3FB5FB801E56DA85007BB9FF /* Dog9.png in Resources */,
+				3FB5FB7B1E56DA85007BB9FF /* Dog3.png in Resources */,
+				3FB5FB7D1E56DA85007BB9FF /* Dog5.png in Resources */,
+				3FB5FB671E56D67C007BB9FF /* LaunchScreen.storyboard in Resources */,
+				3FB5FB641E56D67C007BB9FF /* Assets.xcassets in Resources */,
+				3FB5FB7A1E56DA85007BB9FF /* Dog2.png in Resources */,
+				3FB5FB7F1E56DA85007BB9FF /* Dog8.png in Resources */,
+				3FB5FB791E56DA85007BB9FF /* Dog1.png in Resources */,
+				3FB5FB621E56D67C007BB9FF /* Main.storyboard in Resources */,
+				3FB5FB871E570F0E007BB9FF /* DOG.jpg in Resources */,
+				3FB5FB811E56DA85007BB9FF /* Dog10.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB5FB551E56D67C007BB9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB5FB5F1E56D67C007BB9FF /* ViewController.swift in Sources */,
+				3FB5FB5D1E56D67C007BB9FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FB5FB601E56D67C007BB9FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB5FB611E56D67C007BB9FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FB5FB651E56D67C007BB9FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB5FB661E56D67C007BB9FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FB5FB691E56D67C007BB9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FB5FB6A1E56D67C007BB9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB5FB6C1E56D67C007BB9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Catch Images Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.buu.Catch-Images-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3FB5FB6D1E56D67C007BB9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Catch Images Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.buu.Catch-Images-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB5FB541E56D67C007BB9FF /* Build configuration list for PBXProject "Catch Images Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB5FB691E56D67C007BB9FF /* Debug */,
+				3FB5FB6A1E56D67C007BB9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB5FB6B1E56D67C007BB9FF /* Build configuration list for PBXNativeTarget "Catch Images Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB5FB6C1E56D67C007BB9FF /* Debug */,
+				3FB5FB6D1E56D67C007BB9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FB5FB511E56D67C007BB9FF /* Project object */;
+}
